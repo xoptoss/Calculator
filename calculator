@@ -1,0 +1,28 @@
+package Main;
+
+import java.util.Scanner;
+
+public class mainClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int number1,
+		number2,
+		result;
+		int input;
+		
+		System.out.println("Enter the first number.");
+		
+		Scanner tkeyboard = new Scanner(System.in);
+		input = tkeyboard.nextInt();
+		number1 = input;
+		System.out.println("Please enter the second number.");
+		input = tkeyboard.nextInt();
+		number2 = input;
+		result = number1+number2;
+		System.out.printf("%s%d","Your answer is ", result);
+		
+	}
+
+}
